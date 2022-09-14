@@ -1,19 +1,25 @@
-body {
-  background-color: rgb(110, 190, 0);
+body {/*
+  background-color: rgb(110, 190, 0);*/
+  background-image: url("https://i.pinimg.com/originals/1b/55/e4/1b55e4bdb4fc6051382e370bf26d5a59.jpg");
   margin: 0 7px;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: cursive;
+  color: rgb(245, 250, 245);
 }
 
 form {
-  background-color: rgb(160, 210, 0);
-  padding-bottom: 40px;
-  max-width: 500px;
+  background-color: rgb(34, 139, 34);
+  padding-bottom: 5px;
+  max-width: 600px;
   margin: 0 auto;
   margin-bottom: 20px;
+  border: solid black;
+  border-radius: 10px;
 }
 
 h1 {
-  font-family: 'Trebuchet MS';
+  font-size: 50px;
 }
 
 p {
@@ -22,10 +28,20 @@ p {
   font-weight: bold;
 }
 
+label, p {
+  font-size: 20px;
+}
+
 #title, #description {
-  color: rgb(255, 255, 255);
   margin: 20px auto;
   text-align: center;
+  font-family: 'Trebuchet MS';
+}
+
+#description {
+  font-style: italic;
+  font-size: 20px;
+  width: 600px;
 }
 
 input[type="text"], input[type="email"], input[type="number"], select, label, textarea {
@@ -39,30 +55,32 @@ input, select {
 }
 
 input[type="radio"], input[type="checkbox"] {
-  vertical-align: -8px;
+  vertical-align: -13px;
+  width: 20px;
+  margin: 0;
 }
 
 #submit {
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
+  margin-bottom: 5px;
   min-width: 300px;
+  border: none;
 }
 
 fieldset {
   border: none;
-  border-bottom: dashed;
+  border-bottom: solid black;
+  padding: 30px 20px;
 }
 
 fieldset:last-of-type {
-  margin-bottom: 2em;
-}
-
-div {
-  margin: 20 0;
+  margin-bottom: 1em;
+  border-bottom: none;
 }
 
 label {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 textarea {
@@ -74,6 +92,19 @@ textarea {
   font-weight: bold;
 }
 
+fieldset:first-of-type {
+  padding-top: 5px;
+}
+
 fieldset:first-of-type label {
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+input, textarea, select {
+  background-color: rgb(220,240,220);
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: cursive;
 }
