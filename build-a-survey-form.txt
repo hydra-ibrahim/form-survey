@@ -1,4 +1,4 @@
-** start of undefined **
+** start of HTML code **
 
 <!DOCTYPE html>
   <html lang="en">
@@ -41,9 +41,9 @@
     </body>
   </html>
 
-** end of undefined **
+** end of HTML code **
 
-** start of undefined **
+** start of CSS code **
 
 body {
 background-color: rgb(110, 190, 0);
@@ -110,5 +110,5 @@ fieldset:first-of-type label {
   font-weight: bold;
 }
 
-** end of undefined **
+** end of CSS code **
 
