@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(110, 190, 0);
+  margin: 0 7px;
+  font-family: cursive;
+}
+
+form {
+  background-color: rgb(160, 210, 0);
+  padding-bottom: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS';
+}
+
+p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#title, #description {
+  color: rgb(255, 255, 255);
+  margin: 20px auto;
+  text-align: center;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, label, textarea {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+input, select {
+  height: 2em;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  vertical-align: -8px;
+}
+
+#submit {
+  display: block;
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+fieldset {
+  border: none;
+  border-bottom: dashed;
+}
+
+fieldset:last-of-type {
+  margin-bottom: 2em;
+}
+
+div {
+  margin: 20 0;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+
+#additional {
+  font-weight: bold;
+}
+
+fieldset:first-of-type label {
+  font-weight: bold;
+}

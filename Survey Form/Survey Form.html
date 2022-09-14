@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <title>Survey Form</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"0>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Food Survey Form</h1>
+      <p id="description">With you taking this survey we can know how many people eat healthy food</p>
+      <form id="survey-form">
+        <fieldset>
+          <div>
+            <label id="name-label" for="name">Name<input id="name" type="text" name="name" placeholder="Your full name" required/></label>
+            <label id="email-label" for="email">Email<input id="email" type="email" name="email" placeholder="example@example.com" required/></label>
+            <label id="number-label" for="number">Age<input id="number" type="number" min="13" max="120" name="number" placeholder="Your age" required/></label>
+            <label for="dropdown">Healthy or junk food, what do you eat often?
+              <select id="dropdown" required>
+                <option value="">(select one)</option>
+                <option value="1">Healthy food</option>
+                <option value="2">Junk food</option>
+              </select>
+            </label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div>
+            <p>What would you choose if you had the chance to eat an apple and win $5 or a beef burger and win $15 every day for a whole month?</p>
+            <label for="apple"><input id="apple" type="radio" name="apple-or-burger" value="apple"/> I'd choose the apple and win $150 in total</label>
+            <label for="beef-burger"><input value="beef-burger" id="beef-burger" type="radio" name="apple-or-burger"/> I'd choose the beef burger and win $450 in total</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div>
+            <p>According to the list below, what would you eat for breakfast?</p>
+            <label for="checkbox1"><input id="checkbox1" type="checkbox" name="c1" value="c1"/> Bacon, egg and cheese sandwich</label>
+            <label for="checkbox2"><input id="checkbox2" type="checkbox" name="c2" value="c2"/> Bagel and cream cheese</label>
+            <label for="checkbox3"><input id="checkbox3" type="checkbox" name="c3" value="c3"/> Biscuits</label>
+            <label for="checkbox4"><input id="checkbox4" type="checkbox" name="c4" value="c4"/> Breakfast burrito</label>
+            <label for="checkbox5"><input id="checkbox5" type="checkbox" name="c5" value="c5"/> Cereal</label>
+            <label for="checkbox6"><input id="checkbox6" type="checkbox" name="c6" value="c6"/> Fruit</label>
+            <label for="checkbox7"><input id="checkbox7" type="checkbox" name="c7" value="c7"/> Fruit salad</label>
+            <label for="checkbox8"><input id="checkbox8" type="checkbox" name="c8" value="c8"/> Hard-boiled egg</label>
+            <label for="checkbox9"><input id="checkbox9" type="checkbox" name="c9" value="c9"/> Yogurt</label>
+            <label for="checkbox10"><input id="checkbox10" type="checkbox" name="c10" value="c10"/> Vegetables</label>
+            <label for="checkbox11"><input id="checkbox11" type="checkbox" name="c11" value="c11"/> Salad</label>
+          </div>
+        </fieldset>
+        <fieldset> 
+          <div>
+            <label id="additional" for="additionalInfo">What do you eat most often for lunch, dinner, and snacks?<textarea id="additionalInfo" name="additionalInfo" rows="3" cols="40" placeholder="For lunch, I eat lasagna, fries, etc."></textarea></label>
+          </div>
+        </fieldset>
+        <input id="submit" name="submit" type="submit"/>
+      </form>
+    </body>
+  </html>
